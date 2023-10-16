@@ -1,0 +1,68 @@
+/* custom.css */
+/* Style for the container */
+.container {
+    margin-top: 20px;
+}
+
+/* Style for the page title */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table headers */
+table th {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Style for table rows */
+table td {
+    padding: 8px;
+    border: 1px solid #dee2e6;
+}
+
+/* Style for alternating row colors */
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+    /* Style for checkboxes */
+    .form-check-input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        position: relative;
+        top: 2px; 
+        margin-right: 10px; 
+    }
+
+    .form-check-input[type="checkbox"]:before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff; 
+        border: 1px solid #ccc; 
+        border-radius: 3px; 
+    }
+
+    .form-check-input[type="checkbox"]:checked:before {
+        background-color: #007BFF;
+        border: 1px solid #007BFF; 
+    }
+
+    .form-check-label {
+        margin-left: 5px; 
+    }
+
+   
